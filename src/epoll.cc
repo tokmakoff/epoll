@@ -370,8 +370,8 @@ void Epoll::DispatchEvent(int err, struct epoll_event *event) {
   }
 }
 
-
-NODE_MODULE(epoll, Epoll::Init)
+// https://stackoverflow.com/questions/68598248/is-there-a-way-to-run-native-code-modules-using-worker-threads
+NAN_MODULE_WORKER_ENABLED(epoll, Epoll::Init)
 
 #endif
 

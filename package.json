@@ -1,6 +1,6 @@
 {
   "name": "epoll",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "A low-level Node.js binding for the Linux epoll API",
   "main": "epoll.js",
   "directories": {
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fivdi/epoll.git"
+    "url": "https://github.com/tokmakoff/epoll.git"
   },
   "engines": {
     "node": ">=10.0.0"
